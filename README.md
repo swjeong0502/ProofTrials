@@ -215,3 +215,19 @@ We thank [Locize](https://locize.com) for their translation management tools tha
     <img src="https://github.com/user-attachments/assets/d6b70894-6064-475e-bb65-92a9e23e0077" alt="Locize Logo" height="50">
   </a>
 </p>
+
+# 기타
+### 자주쓰는 명령어
+```
+docker compose down 
+docker compose up -d  
+docker compose logs -f
+
+docker restart LibreChat
+
+docker compose exec LibreChat sh -lc 'ls -l /app/librechat.yaml && head -n 40 /app/librechat.yaml'
+
+docker rm $(docker ps -aq)
+
+
+```
